@@ -1,0 +1,243 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+.header {
+  background-color: #004D40;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+}
+
+/* Container for flexboxes */
+.row {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 10px;
+  height: 720px; /* Should be removed. Only for demonstration */
+  background-color: #00695C;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  .row {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+
+
+
+.navigator
+{
+  background-color: #00695C;
+  padding-top: 30px;
+  text-decoration-color: #ffffff; 
+  text-align: center;
+  font-size: 35px;
+  height:600px;
+}
+
+
+
+.navigator2
+{
+  background-color: #00695C; 
+  text-align: center;
+  padding-left: 0px;
+  padding-right: 0px; 
+  font-size: 120px;
+  height:10px;
+}
+
+
+
+
+.decorator3
+{
+  font-style: italic;
+  font-family: monospace;
+  font-size: 50px;
+  padding-top: 15px;
+  padding-left: 60px;
+  font-size-adjust: 0.80;
+  color: #EEEEEE;
+}
+
+
+.decorator5
+{
+  font-style: italic;
+  font-family: monospace;
+  font-size: 30px;
+  font-size-adjust: 0.80;
+  color: #EEEEEE; 
+  padding-left: 30px;
+  padding-right: 50px;
+  /*padding-bottom: 4px;*/
+  float: left;
+
+
+}
+
+
+
+
+.decorator2
+{
+  font-style: italic;
+  font-family: monospace;
+  font-size: 50px;
+  padding-top: 15px;
+  padding-right: 70px;
+  font-size-adjust: 0.80;
+  color: #EEEEEE; 
+
+}
+
+
+.decorator1
+{
+  font-style: italic;
+  font-family: monospace;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20px;
+  font-size-adjust: 0.80;
+  color: #EEEEEE; 
+}
+
+
+
+.decorator
+{
+  font-style: italic;
+  font-family: monospace;
+  font-size: 80px;
+  text-align: centre;
+  padding-top: 20px;
+  font-size-adjust: 0.80;
+  color: #EEEEEE; 
+}
+
+
+
+.headContent{
+  font-style: italic;
+  font-family: monospace;
+  font-size: 100px;
+  text-align: centre;
+  font-size-adjust: 0.80;
+  color: #ffffff; 
+}
+
+.headStyle
+{
+  background-color:  #00695C;
+  height:180px;  
+
+}
+
+
+.bodystyle
+{
+  display: inline-block;
+  vertical-align:top;
+  float: left;
+
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 20px;
+  width: 683px;
+  height:450px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #00695C;
+}
+
+
+
+.inputstyle
+{
+    padding-left: 150px;
+    padding-right: 150px;
+
+    padding-top: 180px;
+    padding-bottom: 220px;
+}
+
+
+.box1
+{
+  background-color: #EEEEEE;
+
+}
+
+
+
+.FooterStyle
+{
+  display: inline-block;
+  vertical-align:top;
+  float: left;
+
+  font-family: Arial, Helvetica, sans-serif; 
+  font-size: 20px;
+  width: 683px;
+  height:450px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: #00695C;
+}
+
+
+.holder Body
+{
+  float:left;
+
+}
+
+.holder Footer
+{
+  float:right;
+}
+
+
+table, td, th {  
+  border: 0px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  color: #ffffff;
+  font-size:21px;
+  padding-right: 30px;
+  padding:left:30px;
+  padding-bottom: 8px;
+}
